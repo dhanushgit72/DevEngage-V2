@@ -1,5 +1,6 @@
 import "./DocsCard.css"
 
+/* Docs Card */
 // eslint-disable-next-line react/prop-types
 const DocsCard = ({ title, data, doc, image }) => {
     const handleDownload = () => {

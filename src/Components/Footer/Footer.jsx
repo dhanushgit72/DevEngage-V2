@@ -1,6 +1,6 @@
 
 import './Footer.css';
-
+/*Footer Page*/
 const Footer = () => {
     return (
         <footer className="footer">

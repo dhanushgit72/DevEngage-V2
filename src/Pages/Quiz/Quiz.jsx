@@ -6,6 +6,7 @@ import './Quiz.css';
 import Navbar from '../../Components/Navbar/Navbar';
 const Quiz = () => {
     const navigate = useNavigate();
+    /* Quiz Questions and options*/
     const questions = [
         {
             questionText: "Which of this is not a programming language?",

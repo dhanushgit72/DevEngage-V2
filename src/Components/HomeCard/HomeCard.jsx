@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import "./Homecard.css";
-
+/*Hom card */
 const HomeCard = ({ title, data,image }) => {
     return (
         <>

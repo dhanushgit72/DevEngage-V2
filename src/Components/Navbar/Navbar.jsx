@@ -4,11 +4,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect, useState } from "react";
 import { PropTypes } from 'prop-types';
-
+/*Navbar*/
 const Navbar = ({ data }) => {
     const navigate = useNavigate();
     const [name, setName] = useState("");
-
+    /*Logout Logic*/
     const LogOut = () => {
         localStorage.removeItem("User");
         toast.success("Logout Successful");

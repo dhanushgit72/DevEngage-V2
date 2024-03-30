@@ -1,3 +1,5 @@
+/*Zego-Cloud VIdeocall SDK*/
+
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../Components/Navbar/Navbar';

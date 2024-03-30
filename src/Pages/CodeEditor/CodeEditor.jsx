@@ -10,7 +10,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
+/*Code Editor Page */
 function CodeEditor() {
     const navigate = useNavigate();
     //* create three usestate 

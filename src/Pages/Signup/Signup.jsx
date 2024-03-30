@@ -5,7 +5,7 @@ import { auth } from '../../firebase';
 import { useNavigate, Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+/*Signup Page*/
 const Signup = () => {
 
     const [username, setUsername] = useState("");
@@ -14,10 +14,12 @@ const Signup = () => {
     const [showPassword, setShowPassword] = useState(false);
     const navigate = useNavigate();
 
+    /*Show or Hide password */
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
     };
 
+    /* Signup Logic*/
     const SignupNow = (e) => {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)

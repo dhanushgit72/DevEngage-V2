@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-
+/*Result of COde editor */
 // eslint-disable-next-line react/prop-types
 const Result = ({ srcCode }) => {
     return (
